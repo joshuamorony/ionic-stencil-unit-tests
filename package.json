@@ -1,0 +1,27 @@
+{
+  "name": "ionic-stencil-unit-tests",
+  "private": true,
+  "version": "0.0.1",
+  "description": "ionic-stencil-unit-tests",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch"
+  },
+  "dependencies": {
+    "@ionic/core": "^4.7.1",
+    "@types/jest": "^24.0.15"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.2.1",
+    "@types/puppeteer": "1.19.0",
+    "jest": "24.8.0",
+    "jest-cli": "24.8.0",
+    "puppeteer": "1.17.0"
+  }
+}
